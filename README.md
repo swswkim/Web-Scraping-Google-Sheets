@@ -27,7 +27,7 @@ Example 1: Get current gasoline prices
 First, go to Tools > Script editor using the Google Sheets menu.
 Next, enter the following JavaScript code in the code editor that appears:
 
-
+// Code begins here...
 function GAS_PRICE(state) {
   state = state.trim();
   const url = "https://www.gasbuddy.com/USA";
@@ -47,6 +47,7 @@ function GAS_PRICE(state) {
   }
   return price;
 }
+// Code ends here...
 
 
 In this function, we:
@@ -67,7 +68,7 @@ Returns the gas price in the state of CA fetched from a website.
 
 Example 2: Get the birthdates and life spans of famous people
 
-
+// Code begins here...
 function BIRTHDATE(name) {
   const url = "https://en.wikipedia.org/wiki/" + name;
   var response = UrlFetchApp.fetch(url);
@@ -102,6 +103,7 @@ function ParseDate(s) {
   }
   return result;
 }
+// Code ends here...
 
 
 Using the function.
