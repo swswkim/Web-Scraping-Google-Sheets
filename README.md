@@ -1,3 +1,5 @@
+outdated
+
 # Web-Scraping-Google-Sheets
 Web Scraping using Google Sheets
 Source: https://thisdavej.com/web-scraping-with-google-sheets-the-definitive-guide/
